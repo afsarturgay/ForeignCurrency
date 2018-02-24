@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#d9384450"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+        <EditText
+            android:background="@color/colorPrimary"
+            android:layout_width="100dp"
+            android:id="@+id/fromCurrencyEditTxt"
+            android:textColor="@color/lightBlue"
+            android:text="1"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_width="100dp"
+            android:id="@+id/toCurrencyEdtText"
+            android:textColor="@color/lightBlue"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="40dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/currencyBaseTxtView"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:textColor="@color/gray" />
+        <TextView
+            android:layout_width="100dp"
+            android:id="@+id/destCurrencyTxtView"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+</LinearLayout>
